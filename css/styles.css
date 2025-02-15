@@ -1,0 +1,317 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  color: #22343d;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+.container {
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* #region header */
+
+.header {
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-header {
+  display: flex;
+}
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+  display: flex;
+  align-items: center;
+  padding-bottom: 22px;
+  padding-top: 22px;
+  margin-right: 237px;
+}
+.logo-image {
+  margin-right: 16px;
+}
+.nav-header-list {
+  display: flex;
+  gap: 30px;
+}
+.nav-header-item {
+}
+.nav-header-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  display: block;
+}
+.nav-header-link:hover,
+.nav-header-link:focus {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.nav-btn-list {
+  display: flex;
+  gap: 21px;
+}
+.nav-btn-item {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+.btn-sign-in {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+  background-color: transparent;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 105px;
+  height: 42px;
+}
+.btn-sign-up {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  background: #02897a;
+  width: 113px;
+  height: 42px;
+  border: none;
+}
+
+/* #endregion header */
+
+/* #region hero */
+
+.hero {
+}
+.hero-title {
+}
+.hero-text {
+}
+.hero-btn-list {
+}
+.hero-btn {
+}
+.hero-link {
+}
+.hero-image {
+}
+
+/* #endregion hero */
+
+/* #region feature */
+.feature {
+}
+.feature-title {
+}
+.feature-list {
+}
+.feature-item {
+}
+.feature-item-title {
+}
+.feature-item-text {
+}
+.feature-btn {
+}
+/* #endregion feature */
+
+/* #region management */
+.management {
+}
+.management-title {
+}
+.management-text {
+}
+.management-list {
+}
+.management-item {
+}
+.management-item-title {
+}
+.management-item-text {
+}
+.management-image {
+}
+/* #endregion management */
+
+/* #region support */
+.support {
+}
+.support-image {
+}
+.support-title {
+}
+.support-text {
+}
+.support-list {
+}
+.support-item {
+}
+
+/* #endregion support */
+
+/* #region optimisation */
+.optimisation {
+}
+.optimisation-title {
+}
+.optimisation-list {
+}
+.optimisation-item {
+}
+.optimisation-item-title {
+}
+.optimisation-item-text {
+}
+.optimisation-image {
+}
+/* #endregion optimisation */
+
+/* #region staff */
+.staff {
+}
+.staff-title {
+}
+.staff-text {
+}
+.staff-list {
+}
+.staff-item {
+}
+.staff-item-image {
+}
+.staff-item-text {
+}
+/* #endregion staff */
+
+/* #region strategies */
+.strategies {
+}
+.strategies-title {
+}
+.strategies-text {
+}
+.strategies-list {
+}
+.strategies-item {
+}
+.strategies-item-image {
+}
+.strategies-item-text {
+}
+.strategies-item-title {
+}
+/* #endregion strategies */
+
+/* #region price */
+.price {
+}
+.price-title {
+}
+.price-text {
+}
+.price-list {
+}
+.price-item {
+}
+.price-item-title {
+}
+.price-item-description {
+}
+.price-item-number {
+}
+.price-item-currency {
+}
+.price-item-term {
+}
+.price-sublist {
+}
+.price-sublist-item {
+}
+.price-sublist-item-text {
+}
+/* #endregion price */
+
+/* #region reviews */
+.reviews {
+}
+.reviews-title {
+}
+.reviews-text {
+}
+.reviews-list {
+}
+.reviews-item {
+}
+.reviews-item-image {
+}
+.reviews-item-text {
+}
+.reviews-item-avatar {
+}
+.reviews-item-name {
+}
+.reviews-item-position {
+}
+/* #endregion reviews */
+/* #region promo */
+.promo {
+}
+.promo-title {
+}
+.promo-btn {
+}
+.promo-image {
+}
+/* #endregion promo */
+
+/* #region footer */
+.footer {
+}
+.nav-footer {
+}
+.nav-footer-list {
+}
+.nav-footer-item {
+}
+.nav-footer-link {
+}
+/* #endregion footer */
