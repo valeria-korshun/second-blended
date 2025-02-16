@@ -3,7 +3,6 @@ body {
   background-color: #ffffff;
   color: #22343d;
 }
-
 p,
 h1,
 h2,
@@ -13,33 +12,29 @@ h5,
 h6 {
   margin: 0;
 }
-
 img {
   vertical-align: middle;
   display: block;
 }
-
 a {
   text-decoration: none;
 }
-
 ul {
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
-
 button {
   cursor: pointer;
+  font-family: inherit;
 }
 .container {
   max-width: 1140px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
-
 /* #region header */
 
 .header {
@@ -243,18 +238,46 @@ button {
 
 /* #region price */
 .price {
+  padding-bottom: 50px;
+  padding-top: 85px;
+}
+.container {
 }
 .price-title {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .price-text {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 .price-list {
+  display: flex;
+  gap: 72px;
 }
 .price-item {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 32px 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  width: calc((100% - 144px) / 3);
 }
 .price-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.67;
+  margin-bottom: 8px;
+  font-family: "Poppins", sans-serif;
 }
 .price-item-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
 }
 .price-item-number {
 }
@@ -262,11 +285,13 @@ button {
 }
 .price-item-term {
 }
-.price-sublist {
+.price-inner {
 }
-.price-sublist-item {
+.inner--item {
 }
-.price-sublist-item-text {
+.inner--item_item {
+}
+.price-btn {
 }
 /* #endregion price */
 
