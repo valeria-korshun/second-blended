@@ -119,7 +119,7 @@ button {
   justify-content: center;
 }
 .hero {
- padding: 25px 0 50px;
+  padding: 25px 0 50px;
 }
 .hero .hero-title {
   font-weight: 700;
@@ -159,8 +159,8 @@ button {
 
 /* #region feature */
 .feature {
-padding: 50px 0;
-;
+  padding: 50px 0;
+}
 .feature-title {
   font-weight: 700;
   font-size: 32px;
@@ -201,26 +201,55 @@ padding: 50px 0;
   display: block;
 }
 /* #endregion feature */
-
 /* #region management */
 .management {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.managment-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .management-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.title-style {
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
 }
 .management-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  max-width: 486px;
+  margin-bottom: 30px;
 }
 .management-list {
+  max-width: 468px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 .management-item {
 }
 .management-item-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
 }
 .management-item-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
 }
 .management-image {
 }
 /* #endregion management */
-
 /* #region support */
 .support {
 }
@@ -234,9 +263,7 @@ padding: 50px 0;
 }
 .support-item {
 }
-
 /* #endregion support */
-
 /* #region optimisation */
 .optimisation {
 }
@@ -253,7 +280,6 @@ padding: 50px 0;
 .optimisation-image {
 }
 /* #endregion optimisation */
-
 /* #region staff */
 .staff {
 }
